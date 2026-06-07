@@ -3,7 +3,7 @@ export enum TimerType {
 	RECURSIVE,
 }
 
-export type TimerManagerList = Map<
+export type TimerManagerListType = Map<
 	string,
 	{ type: TimerType; timer?: ReturnType<typeof setTimeout>; stop?: () => void }
 >;
