@@ -1,0 +1,17 @@
+{
+	"name": "timer",
+	"version": "1.0.0",
+	"description": "Timer manager.",
+	"main": "dist/index.js",
+	"author": "zyrapasaa",
+	"type": "commonjs",
+	"license": "ISC",
+	"keywords": [],
+	"scripts": {
+		"build": "tsc"
+	},
+	"devDependencies": {
+		"@types/node": "^25.9.2",
+		"typescript": "^6.0.3"
+	}
+}
